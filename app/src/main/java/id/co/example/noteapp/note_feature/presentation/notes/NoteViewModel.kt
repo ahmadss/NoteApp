@@ -1,4 +1,4 @@
-package id.co.example.noteapp.note_feature.presentation.notes.components
+package id.co.example.noteapp.note_feature.presentation.notes
 
 import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
@@ -21,7 +21,7 @@ class NoteViewModel @Inject constructor(
 ) : ViewModel() {
 
     private val mutableState = mutableStateOf(NotesState())
-    private val state: State<NotesState> = mutableState
+    val state: State<NotesState> = mutableState
     private var recentDeleteNote: Note? = null
     private var getAllNotesJob:Job?=null
 

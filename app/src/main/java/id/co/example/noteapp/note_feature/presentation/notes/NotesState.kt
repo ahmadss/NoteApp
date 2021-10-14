@@ -1,4 +1,4 @@
-package id.co.example.noteapp.note_feature.presentation.notes.components
+package id.co.example.noteapp.note_feature.presentation.notes
 
 import id.co.example.noteapp.note_feature.domain.model.Note
 import id.co.example.noteapp.note_feature.domain.utility.NoteOrder
